@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    background: #f4f4f4;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+  }
+  
+  /* Main Box Section Styles */
+  .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .box article {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .box h1 {
+    font-size: 8vh;
+    color: #3498db;
+  }
+  
+  /* Text and Image Section Styles */
+  .text-section {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .image-section {
+    flex-basis: 40%;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Destination Section Styles */
+  .destination {
+    text-align: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  /* Card Content and Card Styles */
+  .card-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #bdc3c7;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 2px solid #2ecc71;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    margin: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #333;
+    padding: 2rem;
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    text-align: start;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 15px 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Responsive Styles for Contact and Sign Up Page */
+  @media screen and (max-width: 768px) {
+    #contact {
+      margin: 1.5rem;
+    }
+  
+    form {
+      width: 90%;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+    }
+  }
+  
+  
